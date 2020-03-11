@@ -9,7 +9,8 @@ index.js: Javascript code using Mapbox GL
 
 ##Data
 
-Database: Uber movememnt October 2019, select time from 7:00-23:00
+Raw data: Uber movememnt October 2019-December 2019
+https://movement.uber.com/cities/san_francisco/downloads/speeds?lang=en-US&tp[y]=2019&tp[q]=4
 
 Colour scheme is classic RAG status and shows:
 
