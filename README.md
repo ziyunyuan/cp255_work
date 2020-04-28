@@ -30,8 +30,8 @@ Colour scheme is classic RAG status and shows:
   
   - Green: Normal: Average Uber vehicle travelling within reported speed limit (eg 16-20 mph in a 20 zone)
   
-  - Yellow: Slow: Average Uber vehicle travelling above reported speed limit, but within speed limit + 50% (eg 12.5-16 mph in a 20 zone)
+  - Yellow: Slow: Average Uber vehicle travelling below reported speed limit, but within speed limit + 50% (eg 12.5-16 mph in a 20 zone)
   
-  - Red: Congested: Average Uber vehicle travelling above reported speed limit, but within speed limit + 75% (eg 10-12.5 mph in a 20 zone)
+  - Red: Congested: Average Uber vehicle travelling below reported speed limit, but within speed limit + 75% (eg 10-12.5 mph in a 20 zone)
   
-  - Dark Red: Heavy congested: Average Uber vehicle travelling above reported speed limit, but within speed limit + 100% (eg 0-10 mph in a 20 zone)
+  - Dark Red: Heavy congested: Average Uber vehicle travelling below reported speed limit, but within speed limit + 100% (eg 0-10 mph in a 20 zone)
