@@ -13,9 +13,9 @@
 
 - Raw data: Uber movememnt October 2019
 
-https://movement.uber.com/cities/san_francisco/downloads/speeds?lang=en-US&tp[y]=2019&tp[q]=4
+  - https://movement.uber.com/cities/san_francisco/downloads/speeds?lang=en-US&tp[y]=2019&tp[q]=4
 
-Uber only reports speeds for OSM ways where 5 or more Uber vehicles have been detected within that particular period (eg on that day, in the hour), and provide information of mean speed and standard deviation.
+  - Uber only reports speeds for OSM ways where 5 or more Uber vehicles have been detected within that particular period (eg on that day, in the hour), and provide information of mean speed and standard deviation.
 
 - mean_speed_rd_Oct: the result dataframe generated from initial anlysis.ipynb
 
