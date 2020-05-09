@@ -27,23 +27,24 @@
   - http://opendata.mtc.ca.gov/datasets/transportation-analysis-zones?geometry=-122.750%2C37.705%2C-122.097%2C37.800&orderBy=county&orderByAsc=false
 
 
-## Colour scheme is classic RAG status and shows:
+## Congestion index:
+  - Congestion index = Road mean speed data/ Road max speed
 
-  - Grey: Missing data (either no Uber data or no reported speed limit)
+  - Missing data (either no Uber data or no reported speed limit)
   
-  - Light Green: Smooth: Average Uber vehicle travelling above reported speed limit (eg beyongd 20 mph in a 20 zone) 
+  - Smooth: Average Uber vehicle travelling above reported speed limit (eg beyongd 20 mph in a 20 zone) 
     - congestion index>1
   
-  - Green: Normal: Average Uber vehicle travelling within reported speed limit (eg 16-20 mph in a 20 zone) 
+  - Normal: Average Uber vehicle travelling within reported speed limit (eg 16-20 mph in a 20 zone) 
     - 0.8<congestion index<1
   
-  - Yellow: Slow: Average Uber vehicle travelling below reported speed limit, but within speed limit + 50% (eg 12.5-16 mph in a 20 zone)
+  - Slow: Average Uber vehicle travelling below reported speed limit, but within speed limit + 50% (eg 12.5-16 mph in a 20 zone)
     - 0.64<congestion index<0.8
   
-  - Red: Congested: Average Uber vehicle travelling below reported speed limit, but within speed limit + 75% (eg 10-12.5 mph in a 20 zone)
+  - Congested: Average Uber vehicle travelling below reported speed limit, but within speed limit + 75% (eg 10-12.5 mph in a 20 zone)
     - 0.51<congestion index<0.64
   
-  - Dark Red: Heavy congested: Average Uber vehicle travelling below reported speed limit, but within speed limit + 100% (eg 0-10 mph in a 20 zone)
+  - Heavy congested: Average Uber vehicle travelling below reported speed limit, but within speed limit + 100% (eg 0-10 mph in a 20 zone)
     - congestion index<0.51
 
 ## Visualization
