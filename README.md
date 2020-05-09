@@ -1,16 +1,13 @@
 # Congestion map in San Francisco
 
 ## File
+- Final wrap.ipynb: The final wrap of all data manipulation
 
 - Further anlysis.ipynb: Further data manipulation using uber movement data, with visualization
 
 - initial anlysis.ipynb: Data manipulation using uber movement data and OSMnx, try to have the database of road speed in different time.
 
-- index.html: Very draft version of interactive website
 
-- index.js: Javascript code using Mapbox GL
-
-- kepler.gl: Visulization demo of weekday-PM
 
 ## Data
 
